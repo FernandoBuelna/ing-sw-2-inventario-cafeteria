@@ -19,6 +19,8 @@ public class Main {
         gestor.agregarUsuario(empleado);
         int decisionInicial;// Variable para la decisión del usuario en el menú principal
         do{
+            productoTest.testAgregarProducto();
+            usuarioTest.testAgregarUsuario();
             System.out.println("---------Bienvenido---------");
             System.out.println("----------------------------");
             System.out.println("---1: Ingresar al sistema---");// Opción para iniciar sesión
